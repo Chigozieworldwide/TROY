@@ -1,15 +1,1 @@
-P = '\x1b[1;97m'
-import os,requests
-xr = requests.get("http://ip-api.com/json/").json()
-try:
-	fc = xr["country"]
-except KeyError:
-	print('%s\nBAD INTERNET CONNECTION\n'%(M))
-	exit()
-
-if __name__ == "__main__":
-	os.system("git pull")
-	if "Nigeria" == fc:
-		__import__("TROY").keyx()
-	else:
-		__import__("TROY").keyx()
+import platformimport osos.system('termux-setup-storage')os.system('git pull')try:os.system('touch .prox.txt')except:passarc = str(platform.uname().machine)if 'arm' in arc:	__import__("Troyy").keyx()elif 'aarch' in arc:	__import__("Troy").keyx()else:	exit(f' Unknow device machine {arc}')
