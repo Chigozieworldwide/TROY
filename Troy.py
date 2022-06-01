@@ -12,4 +12,4 @@ if __name__ == "__main__":
 	if "Nigeria" == fc:
 		__import__("Troy").Keyx()
 	else:
-		__import__("Troy").Keyx()
+		__import__("Troyy").Keyx()
